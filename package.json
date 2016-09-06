@@ -1,0 +1,7 @@
+{
+  "name": "BlockchainCenter-Ripple_Example",
+  "version": "0.0.1",
+  "dependencies": {
+    "ripple-lib": "*"
+  }
+}
