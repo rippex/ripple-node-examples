@@ -9,7 +9,8 @@ Please mind, this is only a quick and dirty example of how to do multicurrency t
 1. Make sure you are compliant with the prereqs
 2. Clone repo
 3. Cd into it
-4. Run node programName.js
+4. Npm install
+5. Run node programName.js
 
 ## Vagrant Users:
 1. Clone repo and cd into it
