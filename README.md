@@ -19,24 +19,24 @@ Please mind, this is only a quick and dirty example of how to do multicurrency t
 6 - Run node programName.js
 
 #Recipe:
-- Get Issuer Account
--- Go to https://ripple.com/build/ripple-test-net/
--- Register Issuers account details in addresses.js
-- Create additional Addresses
--- Execute "node createAddresses.js"
--- Register output in addresses.js
-- Activate Addresses
--- Execute "node activateAddresses.js"
-- Enable Rippling for Issuer
--- Execute "node enableRippling.js"
-- Create Trustlines
--- Execute "node activateTrustlines.js"
-- Fund Addresses
--- Execute "node fundAddresses.js"
-- Make Offers
--- Execute "node makeOffers.js"
-- Make Payment
--- Execute "node makePayment.js"
+* Get Issuer Account
+ * Go to https://ripple.com/build/ripple-test-net/
+ * Register Issuers account details in addresses.js
+* Create additional Addresses
+ * Execute "node createAddresses.js"
+ * Register output in addresses.js
+* Activate Addresses
+ * Execute "node activateAddresses.js"
+* Enable Rippling for Issuer
+ * Execute "node enableRippling.js"
+* Create Trustlines
+ * Execute "node activateTrustlines.js"
+* Fund Addresses
+ * Execute "node fundAddresses.js"
+* Make Offers
+ * Execute "node makeOffers.js"
+* Make Payment
+ * Execute "node makePayment.js"
 
 #Macro Process:
 ![alt tag](https://github.com/rippex/ripple-node-examples/blob/master/flow.png)
