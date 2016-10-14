@@ -31,7 +31,7 @@ Please mind, this is only a quick and dirty example of how to do multicurrency t
 * Enable Rippling for Issuer
  * Execute "node enableRippling.js"
 * Create Trustlines
- * Execute "node activateTrustlines.js"
+ * Execute "node createTrustlines.js"
 * Fund Addresses
  * Execute "node fundAddresses.js"
 * Make Offers

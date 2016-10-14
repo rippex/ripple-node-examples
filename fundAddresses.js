@@ -12,7 +12,7 @@ api.on('error', (errorCode, errorMessage) => {
 });
 
 api.on('connected', () => {
-  // console.log('connected');
+  console.log('connected');
 });
 
 api.on('disconnected', (code) => {

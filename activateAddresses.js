@@ -75,7 +75,7 @@ api.connect().then(() => {
   if(submittedPayment.resultCode === "tesSUCCESS") {
     // https://ripple.com/build/transactions/#full-transaction-response-list
 
-    console.log("Yay! Transaction made successfully to Alice!")
+    console.log("Transaction made successfully to Alice!")
   
   } else {
 
@@ -140,7 +140,7 @@ api.connect().then(() => {
   if(submittedPayment.resultCode === "tesSUCCESS") {
     // https://ripple.com/build/transactions/#full-transaction-response-list
 
-    console.log("Yay! Transaction made successfully to Bob!")
+    console.log("Transaction made successfully to Bob!")
   
   } else {
 
@@ -205,7 +205,7 @@ api.connect().then(() => {
   if(submittedPayment.resultCode === "tesSUCCESS") {
     // https://ripple.com/build/transactions/#full-transaction-response-list
 
-    console.log("Yay! Transaction made successfully Market Maker!")
+    console.log("Transaction made successfully Market Maker!")
   
   } else {
 

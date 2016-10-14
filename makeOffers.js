@@ -74,7 +74,7 @@ api.connect().then(() => {
   if(submittedOrder.resultCode === "tesSUCCESS") {
     // https://ripple.com/build/transactions/#full-transaction-response-list
 
-    console.log("Yay! Transaction made successfully!")
+    console.log("Transaction made successfully!")
   
   } else {
 
@@ -138,7 +138,7 @@ api.connect().then(() => {
   if(submittedOrder.resultCode === "tesSUCCESS") {
     // https://ripple.com/build/transactions/#full-transaction-response-list
 
-    console.log("Yay! Transaction made successfully!")
+    console.log("Transaction made successfully!")
   
   } else {
 

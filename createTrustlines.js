@@ -22,6 +22,7 @@ api.on('disconnected', (code) => {
 
 const addresses = require('./addresses').addresses;
 
+
 api.connect().then(() => {
 
   /* begin custom code ------------------------------------ */
@@ -67,7 +68,7 @@ api.connect().then(() => {
   if(submittedTrustline.resultCode === "tesSUCCESS") {
     // https://ripple.com/build/transactions/#full-transaction-response-list
 
-    console.log("Yay! Alice's trustline created successfully!")
+    console.log("Alice's trustline created successfully!")
   
   } else {
 
@@ -124,7 +125,7 @@ api.connect().then(() => {
   if(submittedTrustline.resultCode === "tesSUCCESS") {
     // https://ripple.com/build/transactions/#full-transaction-response-list
 
-    console.log("Yay! Bob's trustline created successfully!")
+    console.log("Bob's trustline created successfully!")
   
   } else {
 
@@ -181,7 +182,7 @@ api.connect().then(() => {
   if(submittedTrustline.resultCode === "tesSUCCESS") {
     // https://ripple.com/build/transactions/#full-transaction-response-list
 
-    console.log("Yay! Market Makers's trustline created successfully!")
+    console.log("Market Makers's trustline created successfully!")
   
   } else {
 
@@ -238,7 +239,7 @@ api.connect().then(() => {
   if(submittedTrustline.resultCode === "tesSUCCESS") {
     // https://ripple.com/build/transactions/#full-transaction-response-list
 
-    console.log("Yay! Market Makers's trustline created successfully!")
+    console.log("Market Makers's trustline created successfully!")
   
   } else {
 
@@ -247,7 +248,6 @@ api.connect().then(() => {
 
   }
 
-
   /* end custom code -------------------------------------- */
 
 }).then(() => {
@@ -255,10 +255,6 @@ api.connect().then(() => {
   return api.disconnect()
 
 }).catch(console.error)
-
-
-
-
 
 
 
