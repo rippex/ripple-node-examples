@@ -36,7 +36,7 @@ api.connect().then(() => {
     "totalPrice": {
       "currency": "BRL",
       "counterparty": addresses.issuer.address,
-      "value": "3245"
+      "value": "3237" //3245
     },
     "passive": false,
     "fillOrKill": false
@@ -95,7 +95,7 @@ api.connect().then(() => {
     "quantity": {
       "currency": "BRL",
       "counterparty": addresses.issuer.address,
-      "value": "3244"
+      "value": "3236" //3244
     },
     "totalPrice": {
       "currency": "USD",

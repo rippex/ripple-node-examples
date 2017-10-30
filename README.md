@@ -36,8 +36,12 @@ Please mind, this is only a quick and dirty example of how to do multicurrency t
  * Execute "node fundAddresses.js"
 * Make Offers
  * Execute "node makeOffers.js"
+* View Orderbook
+ * Execute "node getOrderbook.js"
 * Make Payment
  * Execute "node makePayment.js"
+* View Orderbook
+ * Execute "node getOrderbook.js"
 
 ## Macro Process:
 ![alt tag](https://github.com/rippex/ripple-node-examples/blob/master/flow.png)

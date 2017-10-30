@@ -18,14 +18,8 @@ api.connect().then(() => {
 
     api.getTrustlines(addresses.issuer.address).then(trustlines => {
       
-      console.log(addresses.issuer.name, trustlines)
+      console.log("\n\n"+addresses.issuer.name, trustlines)
       
-      // api.getOrders(addresses.issuer.address).then((orders) => {
-
-      //   console.log("\n\n"+addresses.issuer.name, JSON.stringify(orders)+"\n\n")
-
-      // })
-
     })
 
   }).catch((error) => {
@@ -43,16 +37,8 @@ api.connect().then(() => {
 
     api.getTrustlines(addresses.marketmaker.address).then(trustlines => {
       
-      console.log(addresses.marketmaker.name, trustlines)
+      console.log("\n\n"+addresses.marketmaker.name, trustlines)
 
-    }).then(() => {
-
-      api.getOrders(addresses.marketmaker.address).then((orders) => {
-
-        console.log("\n\n"+addresses.marketmaker.name, JSON.stringify(orders)+"\n\n")
-
-      })
-      
     })
 
   }).catch((error) => {
@@ -70,7 +56,7 @@ api.connect().then(() => {
 
     api.getTrustlines(addresses.alice.address).then(trustlines => {
       
-      console.log(addresses.alice.name, trustlines)
+      console.log("\n\n"+addresses.alice.name, trustlines)
 
     })
 
@@ -89,7 +75,7 @@ api.connect().then(() => {
 
     api.getTrustlines(addresses.bob.address).then(trustlines => {
       
-      console.log(addresses.bob.name, trustlines)
+      console.log("\n\n"+addresses.bob.name, trustlines)
 
     })
 

@@ -26,6 +26,7 @@ api.connect().then(() => {
 
   /* begin custom code ------------------------------------ */
 
+  //https://ripple.com/build/understanding-the-noripple-flag/
   let settings = {
     "defaultRipple": true
   }
